@@ -1,3 +1,17 @@
+# Microscopy Icons Pack
+
+This icons pack was made by @lacan to populate the BioImaging & Optics Platform Equipment Page at
+
+https://www.epfl.ch/research/facilities/ptbiop/equipment/?preview=true
+
+
+The icons were made in Illustrator and exported to SVG and PNG.
+
+Feel free to use and modify these if they can be of use to you, but please check the license information below.
+
+
+
+# Copyright Information
 All icons are Copyright of Olivier Burri under CC-BY 4.0 License
 
 https://creativecommons.org/licenses/by/4.0/
