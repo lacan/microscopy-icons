@@ -17,9 +17,9 @@ Feel free to use and modify these if they can be of use to you, but please check
 # Icons Included
 ![Icons Preview](https://github.com/lacan/microscopy-icons/blob/master/Icons%20Screenshot.png)
 
-![Icons OBmodRG Preview](https://github.com/lacan/microscopy-icons/blob/master/Icons%20Screenshot_OB_modRG.png)
+![Icons OBmodRG Preview](https://github.com/romainGuiet/microscopy-icons/blob/master/Icons%20Screenshot_OB_modRG.png)
 
-![Icons RG Preview](https://github.com/lacan/microscopy-icons/blob/master/Icons%20Screenshot_RG.png)
+![Icons RG Preview](https://github.com/romainGuiet/microscopy-icons/blob/master/Icons%20Screenshot_RG.png)
 
 # Copyright Information
 All icons are Copyright of Olivier Burri and Romain Guiet under CC-BY 4.0 License
