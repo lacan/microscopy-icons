@@ -21,6 +21,8 @@ Feel free to use and modify these if they can be of use to you, but please check
 
 ![Icons RG Preview](Icons%20Screenshot_RG.png)
 
+![Icons NC Preview](Icons%20Screenshot_NC.png)
+
 # Copyright Information
 All icons are Copyright of Olivier Burri, Romain Guiet and Nicolas Chiaruttini under CC-BY 4.0 License
 
