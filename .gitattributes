@@ -1,0 +1,4 @@
+# keep the converter runnable after a checkout on Windows (autocrlf would
+# otherwise give it CRLF line endings, which bash chokes on)
+*.sh text eol=lf
+*.svg text eol=lf
