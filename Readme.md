@@ -24,6 +24,13 @@ Feel free to use and modify these if they can be of use to you, but please check
 
 `Microscopy Icon Pack.ai` and `Microscopy Icon Pack_RG.ai` are the Illustrator sources for the first two sets.
 
+# Regenerating the PNGs
+
+    tools/svg2png.sh 364 NC_SVG NC_PNG
+    tools/svg2png.sh 756 RG_SVG RG_PNG
+
+Rasterises a folder of SVG icons to transparent PNGs using headless Edge or Chrome, so it needs no Inkscape, ImageMagick or Python.
+
 # Icons Included
 ![Icons Preview](Icons%20Screenshot.png)
 
