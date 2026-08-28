@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.83 362.83">
+  <defs>
+    <style>
+      .bg{fill:#0073b2;}
+      .mt path{fill:none;stroke:#9acf89;stroke-linecap:round;}
+      .arrow{fill:#231f20;}
+    </style>
+  </defs>
+  <circle class="bg" cx="181.42" cy="181.42" r="181.42"/>
+  <!-- before: filaments closer together than the resolution limit, so the network is not read out -->
+  <g class="mt" stroke-width="40.74" transform="translate(76,181.42) scale(0.27) translate(-120,-120)">
+      <path d="M8,52 C70,72 150,74 232,46"/>
+      <path d="M18,210 C60,168 92,120 128,64 C142,42 152,24 158,8"/>
+      <path d="M12,136 C60,158 120,180 168,208 C196,224 216,232 232,238"/>
+      <path d="M84,236 C96,198 118,152 152,116 C182,84 214,60 236,44"/>
+      <path d="M196,10 C196,60 190,112 200,158 C208,196 220,218 232,232"/>
+  </g>
+  <polygon class="arrow" points="0 -5.5 22 -5.5 22 -12.5 38 0 22 12.5 22 5.5 0 5.5" transform="translate(117,181.42)"/>
+  <!-- after: the same network swollen 2.6x. stroke-width is divided by the group scale, so the
+       filaments keep exactly the same rendered thickness - only their spacing grows -->
+  <g class="mt" stroke-width="15.71" transform="translate(248,181.42) scale(0.7) translate(-120,-120)">
+      <path d="M8,52 C70,72 150,74 232,46"/>
+      <path d="M18,210 C60,168 92,120 128,64 C142,42 152,24 158,8"/>
+      <path d="M12,136 C60,158 120,180 168,208 C196,224 216,232 232,238"/>
+      <path d="M84,236 C96,198 118,152 152,116 C182,84 214,60 236,44"/>
+      <path d="M196,10 C196,60 190,112 200,158 C208,196 220,218 232,232"/>
+  </g>
+</svg>

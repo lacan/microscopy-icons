@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.83 362.83">
+  <defs>
+    <style>
+      .bg{fill:#0073b2;}
+      .glass{fill:#d5e7e5;opacity:.12;}
+      .beam{fill:#d5e7e5;}
+      .cell{fill:#456f78;}
+      .evan{fill:#eaf6f4;opacity:.62;}
+      .on{fill:#fff;}
+      .off{fill:#231f20;opacity:.3;}
+      .spin path{fill:none;stroke:#231f20;stroke-width:5.67px;stroke-linecap:butt;}
+      .spin polygon{fill:#231f20;}
+      .plane{fill:none;stroke:#231f20;stroke-width:5.67px;stroke-linecap:round;stroke-miterlimit:10;}
+    </style>
+    <clipPath id="disc"><circle cx="181.42" cy="181.42" r="181.42"/></clipPath>
+    <clipPath id="basalslice"><rect x="0" y="182" width="362.83" height="23"/></clipPath>
+  </defs>
+  <circle class="bg" cx="181.42" cy="181.42" r="181.42"/>
+  <g clip-path="url(#disc)">
+    <rect class="glass" x="0" y="205" width="362.83" height="157.83"/>
+    <!-- excitation beyond the critical angle: totally internally reflected at the glass/water interface -->
+    <polygon class="beam" points="147.42 205 215.42 205 431.92 330 363.92 330 181.42 224.63 -1.08 330 -69.08 330"/>
+    <!-- beam swept around the optical axis: all azimuths, one fixed incidence angle -->
+    <g class="spin">
+      <path d="M162.32,317.45 A110,36 0 0 1 162.32,246.55"/>
+      <path d="M200.52,246.55 A110,36 0 0 1 200.52,317.45"/>
+      <polygon points="181.29 245.46 161.74 236.57 162.90 256.53"/>
+      <polygon points="181.55 318.54 201.10 327.43 199.94 307.47"/>
+    </g>
+    <!-- cell on the coverslip -->
+    <path class="cell" d="M82,205 C83,138 122,88 182,88 C242,88 280,136 281,205 Z"/>
+    <!-- fluorophores deeper in the cell stay dark -->
+    <circle class="off" cx="135" cy="168" r="5.5"/>
+    <circle class="off" cx="172" cy="135" r="5.5"/>
+    <circle class="off" cx="212" cy="150" r="5.5"/>
+    <circle class="off" cx="238" cy="180" r="5.5"/>
+    <!-- ~100 nm evanescent field: only the basal membrane is excited -->
+    <g clip-path="url(#basalslice)">
+      <path class="evan" d="M82,205 C83,138 122,88 182,88 C242,88 280,136 281,205 Z"/>
+    </g>
+    <circle class="on" cx="128" cy="192" r="5.5"/>
+    <circle class="on" cx="163" cy="194" r="5.5"/>
+    <circle class="on" cx="200" cy="191" r="5.5"/>
+    <circle class="on" cx="237" cy="193" r="5.5"/>
+    <line class="plane" x1="36.72" y1="205" x2="326.11" y2="205"/>
+  </g>
+</svg>
