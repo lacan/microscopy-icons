@@ -14,6 +14,16 @@ The OB and RG icons were made in Illustrator - the .ai sources are included - an
 Feel free to use and modify these if they can be of use to you, but please check the license information below.
 
 
+# What is in here
+
+| Folder | Set | Author |
+| --- | --- | --- |
+| `OB_SVG` / `OB_PNG` | 23 icons | Olivier Burri |
+| `RG_SVG` / `RG_PNG` | 68 icons, extending the OB set | Romain Guiet |
+| `NC_SVG` / `NC_PNG` | 6 icons | Nicolas Chiaruttini |
+
+`Microscopy Icon Pack.ai` and `Microscopy Icon Pack_RG.ai` are the Illustrator sources for the first two sets.
+
 # Icons Included
 ![Icons Preview](Icons%20Screenshot.png)
 
