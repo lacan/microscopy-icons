@@ -9,20 +9,39 @@ And is now made available to the greater microscopy community under CC-BY
 # About the icons
 Icons are round with transparent background and are used as per the legend in the table from the link above.
 
-The icons were made in Illustrator and exported to SVG and PNG (255x255 pixels).
+The OB and RG icons were made in Illustrator - the .ai sources are included - and exported to SVG and PNG: 364x364 pixels for OB, 756x756 for RG. The NC icons were written directly as SVG, so the .svg files are the source for that set; they are exported to PNG at 364x364.
 
 Feel free to use and modify these if they can be of use to you, but please check the license information below.
 
 
+# What is in here
+
+| Folder | Set | Author |
+| --- | --- | --- |
+| `OB_SVG` / `OB_PNG` | 23 icons | Olivier Burri |
+| `RG_SVG` / `RG_PNG` | 68 icons, extending the OB set | Romain Guiet |
+| `NC_SVG` / `NC_PNG` | 6 icons | Nicolas Chiaruttini |
+
+`Microscopy Icon Pack.ai` and `Microscopy Icon Pack_RG.ai` are the Illustrator sources for the first two sets.
+
+# Regenerating the PNGs
+
+    tools/svg2png.sh 364 NC_SVG NC_PNG
+    tools/svg2png.sh 756 RG_SVG RG_PNG
+
+Rasterises a folder of SVG icons to transparent PNGs using headless Edge or Chrome, so it needs no Inkscape, ImageMagick or Python.
+
 # Icons Included
-![Icons Preview](https://github.com/lacan/microscopy-icons/blob/master/Icons%20Screenshot.png)
+![Icons Preview](Icons%20Screenshot.png)
 
-![Icons OBmodRG Preview](https://github.com/romainGuiet/microscopy-icons/blob/master/Icons%20Screenshot_OB_modRG.png)
+![Icons OBmodRG Preview](Icons%20Screenshot_OB_modRG.png)
 
-![Icons RG Preview](https://github.com/romainGuiet/microscopy-icons/blob/master/Icons%20Screenshot_RG.png)
+![Icons RG Preview](Icons%20Screenshot_RG.png)
+
+![Icons NC Preview](Icons%20Screenshot_NC.png)
 
 # Copyright Information
-All icons are Copyright of Olivier Burri and Romain Guiet under CC-BY 4.0 License
+All icons are Copyright of Olivier Burri, Romain Guiet and Nicolas Chiaruttini under CC-BY 4.0 License
 
 https://creativecommons.org/licenses/by/4.0/
 

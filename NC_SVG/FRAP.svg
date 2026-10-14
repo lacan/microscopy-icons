@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.83 362.83">
+  <defs>
+    <style>
+      .bg{fill:#0073b2;}
+      .mt path{fill:none;stroke-linecap:round;stroke-width:11px;}
+      .lit path{stroke:#9acf89;}
+      .dark path{stroke:#31576a;}
+      .mask{fill:#0073b2;}
+      .roiline{fill:none;stroke:#eaf6f4;stroke-width:4px;}
+      .beam{fill:#d5e7e5;opacity:.5;}
+      .arrow{fill:#231f20;}
+    </style>
+    <clipPath id="disc"><circle cx="181.42" cy="181.42" r="181.42"/></clipPath>
+    <clipPath id="roi"><rect x="130" y="155" width="103" height="103"/></clipPath>
+  </defs>
+  <circle class="bg" cx="181.42" cy="181.42" r="181.42"/>
+  <g clip-path="url(#disc)">
+    <g class="mt lit" transform="translate(181.42,181.42) scale(1.0) translate(-120,-120)">
+      <path d="M8,52 C70,72 150,74 232,46"/>
+      <path d="M18,210 C60,168 92,120 128,64 C142,42 152,24 158,8"/>
+      <path d="M12,136 C60,158 120,180 168,208 C196,224 216,232 232,238"/>
+      <path d="M84,236 C96,198 118,152 152,116 C182,84 214,60 236,44"/>
+      <path d="M196,10 C196,60 190,112 200,158 C208,196 220,218 232,232"/>
+    </g>
+    <!-- square ROI: the same filaments, photobleached -->
+    <rect class="mask" x="130" y="155" width="103" height="103"/>
+    <g clip-path="url(#roi)">
+      <g class="mt dark" transform="translate(181.42,181.42) scale(1.0) translate(-120,-120)">
+      <path d="M8,52 C70,72 150,74 232,46"/>
+      <path d="M18,210 C60,168 92,120 128,64 C142,42 152,24 158,8"/>
+      <path d="M12,136 C60,158 120,180 168,208 C196,224 216,232 232,238"/>
+      <path d="M84,236 C96,198 118,152 152,116 C182,84 214,60 236,44"/>
+      <path d="M196,10 C196,60 190,112 200,158 C208,196 220,218 232,232"/>
+      </g>
+    </g>
+    <rect class="roiline" x="130" y="155" width="103" height="103"/>
+    <!-- bleaching illumination, restricted to the ROI -->
+    <rect class="beam" x="130" y="0" width="103" height="155"/>
+    <!-- recovery: unbleached molecules diffuse back in -->
+    <g class="arrow">
+      <polygon points="0 -4.5 12 -4.5 12 -11 26 0 12 11 12 4.5 0 4.5" transform="translate(96,206)"/>
+      <polygon points="0 -4.5 12 -4.5 12 -11 26 0 12 11 12 4.5 0 4.5" transform="translate(267,206) rotate(180)"/>
+    </g>
+  </g>
+</svg>

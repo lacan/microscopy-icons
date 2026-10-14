@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.83 362.83">
+  <defs>
+    <style>
+      .bg{fill:#0073b2;}
+      .axis{fill:none;stroke:#231f20;stroke-width:5.67px;stroke-linecap:round;stroke-linejoin:round;}
+      .pulse{fill:#eaf6f4;}
+      .tau{fill:none;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round;}
+      .short{stroke:#ffcd34;}
+      .long{stroke:#cc79a7;}
+    </style>
+  </defs>
+  <circle class="bg" cx="181.42" cy="181.42" r="181.42"/>
+  <!-- pulsed excitation, then two fluorescence decays: short tau and long tau -->
+  <polygon class="pulse" points="88 280 95 96 102 280"/>
+  <path class="tau long" d="M95,100 L115,132.6 L135,159.3 L155,181.2 L180,203.1 L205,220.1 L235,235.6 L265,247.1 L305,258"/>
+  <path class="tau short" d="M95,100 L105,141.6 L115,173.6 L125,198.2 L135,217.2 L150,237.5 L165,251.3 L185,262.9 L210,271.2 L240,276 L275,278.3 L305,279.3"/>
+  <path class="axis" d="M70,78 L70,280 L308,280"/>
+</svg>

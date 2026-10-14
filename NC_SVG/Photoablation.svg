@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.83 362.83">
+  <defs>
+    <style>
+      .bg{fill:#0073b2;}
+      .beam{fill:#d5e7e5;}
+      .fibre{fill:none;stroke:#009e73;stroke-width:20px;stroke-linecap:round;}
+      .burst{fill:#ffcd34;}
+      .core{fill:#fff;}
+    </style>
+  </defs>
+  <circle class="bg" cx="181.42" cy="181.42" r="181.42"/>
+  <!-- structure severed at the focus -->
+  <path class="fibre" d="M38,228 C90,215 126,203 150,198"/>
+  <path class="fibre" d="M213,198 C237,203 273,215 325,228"/>
+  <!-- tightly focused pulsed laser -->
+  <polygon class="beam" points="84 30 279 30 181.42 198"/>
+  <polygon class="burst" points="237.42 198 200.16 205.31 221.02 236.6 189.73 215.74 181.42 254 173.11 215.74 141.82 236.6 162.68 205.31 125.42 198 162.68 190.69 141.82 159.4 173.11 180.26 181.42 142 189.73 180.26 221.02 159.4 200.16 190.69"/>
+  <circle class="core" cx="181.42" cy="198" r="17"/>
+</svg>
